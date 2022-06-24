@@ -1,6 +1,4 @@
 
-# Created by https://www.gitignore.io/api/macos,eclipse,intellij
-
 ### Eclipse ###
 
 .metadata
@@ -157,5 +155,23 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### VisualStudioCode ###
+*/.vscode/*
 
-# End of https://www.gitignore.io/api/macos,eclipse,intellij
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+.vscode/*.code-snippets
+
+# Ignore code-workspaces
+*.code-workspace
+
