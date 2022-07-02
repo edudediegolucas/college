@@ -175,3 +175,6 @@ Temporary Items
 # Ignore code-workspaces
 *.code-workspace
 
+# Ignore .o and .ali files from gnatmake build
+*.o
+*.ali
